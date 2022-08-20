@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h2{
+    text-align: center;
+}
+.home{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/03qnKb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home h1{
+    color: #fff;
+}
+.textbox{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+}
+.textbox h1{
+    font-size: 62px;
+    text-align: right;
+}
+
+.section{
+    text-align: center;
+    padding-top: 50px;
+}
+.section-div{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+div{
+  padding-left: 20px;  
+}
+.text{
+    text-align: left;
+}
+.text p{
+    font-size: 18px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* Players */
+
+.players{
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.players-img img{
+    width: 250px;
+    height: 250px;
+}
+.players-img:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+/* footer */
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+footer h2{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+}
+
+.copyright span {
+    display: inline-block;
+    color: gray;
+    padding: 0 1rem 0 1.2rem;
+}
+.my:hover{
+    color: #fff;
+    opacity: 0.7;
+}
